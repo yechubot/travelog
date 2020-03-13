@@ -1,0 +1,42 @@
+body{
+    
+    font-family: 'Mansalva', cursive;
+    color:gray;
+}
+h1{
+    text-align:center;   
+    color:burlywood;
+    
+    }
+#goHome{
+    margin-left: 30px;
+    
+}
+
+#columns {
+    column-width: 300px;
+    margin: auto;
+    gap:15px;    
+}
+
+#columns figure {
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    
+    
+}
+#columns figure img{
+    width: 100%;
+      
+}
+
+
+#columns figure figcaption {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: right;
+}
